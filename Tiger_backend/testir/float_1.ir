@@ -1,0 +1,11 @@
+#start_function main
+void main():
+int-list: 
+float-list: $temp3
+main:
+	assign,$temp3,4.0
+	call,printi,$temp3
+	assign,$temp3,8.0
+	call,printi,$temp3
+	return,,,
+#end_function main

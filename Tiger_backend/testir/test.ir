@@ -1,0 +1,9 @@
+#start_function main
+void main():
+int-list: r_st_1_0
+float-list: 
+	assign,r_st_1_0,1,
+main:
+	assign,r_st_1_0,5,
+	return,,,
+#end_function main 

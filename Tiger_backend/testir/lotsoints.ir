@@ -1,0 +1,80 @@
+#start_function main
+void main()
+int-list: i0, i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13
+float-list:
+assign, i0,  0,
+assign, i1,  1,
+assign, i2,  2,
+assign, i3,  3,
+assign, i4,  4,
+assign, i5,  5,
+assign, i6,  6,
+assign, i7,  7,
+assign, i8,  8,
+assign, i9,  9,
+assign, i10, 10,
+assign, i11, 11,
+assign, i12, 12,
+assign, i13, 13,
+goto, block1
+block1:
+add, i0, 1, i0
+add, i1, 1, i1
+add, i2, 1, i2
+add, i3, 1, i3
+add, i4, 1, i4
+add, i5, 1, i5
+add, i6, 1, i6
+add, i7, 1, i7
+add, i8, 1, i8
+add, i9, 1, i9
+add, i10, 1, i10
+add, i11, 1, i11
+add, i12, 1, i12
+add, i13, 1, i13
+goto, block2
+block2:
+add, i0, 1, i0
+add, i1, 1, i1
+add, i2, 1, i2
+add, i3, 1, i3
+add, i4, 1, i4
+add, i5, 1, i5
+add, i5, 1, i5
+add, i5, 1, i5
+add, i5, 1, i5
+add, i5, 1, i5
+add, i5, 1, i5
+add, i5, 1, i5
+add, i6, 1, i6
+add, i7, 1, i7
+add, i8, 1, i8
+add, i9, 1, i9
+add, i10, 1, i10
+add, i11, 1, i11
+add, i2, 1, i2
+add, i2, 1, i2
+add, i2, 1, i2
+add, i2, 1, i2
+add, i2, 1, i2
+add, i2, 1, i2
+add, i12, 1, i12
+add, i13, 1, i13
+goto, block3
+block3:
+call, printi, i0
+call, printi, i1
+call, printi, i2
+call, printi, i3
+call, printi, i4
+call, printi, i5
+call, printi, i6
+call, printi, i7
+call, printi, i8
+call, printi, i9
+call, printi, i10
+call, printi, i11
+call, printi, i12
+call, printi, i13
+return,,,
+#end_function main

@@ -1,0 +1,22 @@
+#start_function fact_st_1_0
+float fact_st_1_0(float n_stf_fact_2_0):
+int-list: 
+float-list: $temp0,$temp1,n_stf_fact_2_0
+fact_st_1_0:
+	assign,$temp0,5.0,
+	add,$temp0,n_stf_fact_2_0,$temp1
+	return,$temp1,,
+
+#end_function fact_st_1_0
+
+#start_function main
+void main():
+int-list: 
+float-list: $temp0,$temp1,r_st_1_0
+main:
+	assign,$temp0,5.0,
+	callr,$temp1,fact_st_1_0,$temp0
+	assign,r_st_1_0,$temp1,
+	call,printi,r_st_1_0
+	return,,,
+#end_function main

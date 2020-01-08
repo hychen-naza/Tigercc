@@ -1,0 +1,17 @@
+#start_function main
+void main():
+int-list: $temp3,x_array
+float-list: 
+main:
+	assign,x_array,4,2
+	array_load,$temp3,x_array,1
+	call,printi,$temp3
+	assign,$temp3,4
+	call,printi,$temp3
+	array_store,x_array,1,$temp3
+	assign,$temp3,8
+	call,printi,$temp3
+	array_load,$temp3,x_array,1
+	call,printi,$temp3
+	return,,,
+#end_function main

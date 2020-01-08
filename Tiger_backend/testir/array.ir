@@ -1,0 +1,35 @@
+#start_function main
+void main():
+int-list: $temp,$idx1,$idx2,$num1,x_array
+float-list: 
+main:
+	assign,x_array,4,0
+	assign,$num1,1
+	assign,$idx1,0
+	assign,$idx2,4
+l1:
+	breq,$idx1,$idx2,done1
+	array_load,$temp,x_array,$idx1
+	call,printi,$temp
+	add,$num1,$idx1,$idx1
+	goto,l1,,
+done1:
+	assign,$idx1,0
+	assign,$idx2,4
+l2:
+	breq,$idx1,$idx2,done2
+	array_store,x_array,$idx1,$idx1
+	add,$num1,$idx1,$idx1
+	goto,l2,,
+done2:
+	assign,$idx1,0
+	assign,$idx2,4
+l3:
+	breq,$idx1,$idx2,done3
+	array_load,$temp,x_array,$idx1
+	call,printi,$temp
+	add,$num1,$idx1,$idx1
+	goto,l3,,
+done3:
+	return,,,
+#end_function main
