@@ -45,7 +45,7 @@ For example: <br/>
 means we use factorial.ir as input to our compiler and choose naive register allocator <br/> 
 `./tiger -h`  <br/> 
 will output help information, <br/> 
-(```)
+```
 #define USAGE                <br/> 
 "usage:\n"                    <br/> 
 "  tiger [options]\n"       <br/> 
@@ -53,7 +53,7 @@ will output help information, <br/>
 "  -f [ir_file]  ir file to generate MIPS code\n"     <br/> 
 "  -o [reg_allocator]  'o' means optimized register allocation, 'u' means unoptimized\n"     <br/> 
 "  -h              Show this help message\n" <br/> 
-(```)
+```
 
 The compiler will generate a file named MIPSCode.s which contains assembly code of the input ir file. MIPSCode.s can load and execute on the supplied SPIM simulator. <br/> 
 
