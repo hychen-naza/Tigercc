@@ -1,0 +1,10 @@
+main let
+        var a, b : float := 2.6;
+in begin
+        if(a == b) then
+                a := b + 2.9;
+		else
+				a := 2.3;
+        endif;
+        printi(a);
+end

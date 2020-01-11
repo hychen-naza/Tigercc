@@ -1,0 +1,22 @@
+main 
+let 
+ var i,j : int; 
+
+in
+begin
+
+ i := 1;
+ j := 1;
+ let 
+   var i: int := 9; 
+   function add(x:int) begin
+     j := 10;
+     x := x+j;
+     printi(j);
+     printi(x);
+   end;
+ in
+   add(i);
+ end;
+ printi(j);
+end

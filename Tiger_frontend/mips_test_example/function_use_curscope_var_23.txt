@@ -1,0 +1,15 @@
+main 
+let 
+ var i,j,k : int; 
+ function add(x:int, y:int) begin
+   x := x+y+k;
+ end;
+in
+begin
+
+ i := 10;
+ j := 10;
+ k := 2;
+ add(i,j);
+
+end

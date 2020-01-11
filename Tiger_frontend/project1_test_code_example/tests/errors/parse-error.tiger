@@ -1,0 +1,12 @@
+main let
+        var i, sum : int := 0;
+in
+begin
+        for i := 0 to 99 do
+                sum := sum + i;
+        enddo;
+        
+        sum + i; //illegal
+        
+        printi(sum);
+end

@@ -1,0 +1,9 @@
+main 
+let 
+ type myFloat = float;
+ var i,j : myFloat := 3.0;
+in
+begin
+ i := i + j;
+ 
+end

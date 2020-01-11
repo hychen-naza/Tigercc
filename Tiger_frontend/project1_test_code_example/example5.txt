@@ -1,0 +1,19 @@
+main 
+let 
+ var X, Y, res : int := 0; 
+in
+begin
+ X := 1;
+ Y := 2;
+ let 
+    var x, y, res : int := 1;
+    /*function show2(x:int) begin
+      x := x + 1;
+    end;*/
+ in
+    res := x + y;
+ end; 
+
+ X := X + 1;
+
+end

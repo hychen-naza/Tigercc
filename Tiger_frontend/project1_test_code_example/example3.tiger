@@ -1,0 +1,7 @@
+main let
+    var a, b : int := 10; 
+    var Z, W : array[100] of int := 3;
+in begin
+    a := b + 3;
+    Z[1] := W[1] + a;
+end

@@ -1,0 +1,11 @@
+main 
+let 
+ var X, Y : int := 0; 
+in
+begin
+ X := 1;
+ Y := 3;
+
+ X := Y - 1;
+
+end

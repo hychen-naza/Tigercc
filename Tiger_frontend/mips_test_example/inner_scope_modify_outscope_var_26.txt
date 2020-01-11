@@ -1,0 +1,19 @@
+main 
+let 
+ var i,j : int; 
+
+in
+begin
+
+ i := 1;
+ j := 1;
+ let 
+   var i: int := 10; 
+ in
+   j := 10;
+   i := j;
+   printi(i);
+   printi(j);
+ end;
+ printi(j);
+end

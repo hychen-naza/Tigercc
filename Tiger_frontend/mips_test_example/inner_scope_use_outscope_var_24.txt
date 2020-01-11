@@ -1,0 +1,16 @@
+main 
+let 
+ var i,j : int; 
+
+in
+begin
+
+ i := 1;
+ j := 1;
+ let 
+   var i: int := 10; 
+ in
+   i := j;
+ end;
+
+end

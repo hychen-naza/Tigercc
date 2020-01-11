@@ -1,0 +1,10 @@
+main let
+    type x = int;
+    var myX : x;
+    function print ( n : x ) : int begin
+            printi(n);
+            return n;
+    end;
+in begin
+        print(5);
+end

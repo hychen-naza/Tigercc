@@ -1,0 +1,13 @@
+main 
+let 
+ var i : int; 
+in
+begin
+
+ i := 10;
+ if i < 50 
+     then i := i + 1;
+ else i := i + 2;
+ endif;
+
+end

@@ -1,0 +1,8 @@
+main let
+    function print ( n : int, m : int, x : float ) : int begin
+            printi(n);
+            return n;
+    end;
+in begin
+        print(5);
+end

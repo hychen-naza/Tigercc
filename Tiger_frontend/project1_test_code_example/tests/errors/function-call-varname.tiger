@@ -1,0 +1,8 @@
+main let
+    var x : int;
+    function print ( ) begin
+            printi(7);
+    end;
+in begin
+    x(8,9);
+end

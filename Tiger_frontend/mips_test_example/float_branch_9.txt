@@ -1,0 +1,13 @@
+main 
+let 
+ var i : float; 
+in
+begin
+
+ i := 10.0;
+ if i >= 50.0 
+     then i := i + 1.0;
+ else i := i + 2.0;
+ endif;
+
+end

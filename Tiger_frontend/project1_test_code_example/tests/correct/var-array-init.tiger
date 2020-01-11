@@ -1,0 +1,6 @@
+main let
+    var a : array[2] of int := 5;
+in begin
+    a[0] := 2;
+    printi(a[0]);
+end

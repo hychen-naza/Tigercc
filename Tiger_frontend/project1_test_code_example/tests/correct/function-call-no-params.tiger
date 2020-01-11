@@ -1,0 +1,7 @@
+main let
+        function print ( ) begin
+                printi(7);
+        end;
+in begin
+        print();
+end

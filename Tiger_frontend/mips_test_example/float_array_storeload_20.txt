@@ -1,0 +1,12 @@
+main 
+let 
+ type ArrayInt = array [100] of float;
+ var A : ArrayInt := 10.0;
+ var B : ArrayInt := 20.0;
+ var i : int;
+in
+begin
+ i := 2;
+ A[i*2] = B[i-1] / 4.0;
+ 
+end

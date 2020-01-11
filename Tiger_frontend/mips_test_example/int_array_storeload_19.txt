@@ -1,0 +1,12 @@
+main 
+let 
+ type ArrayInt = array [100] of int;
+ var A : ArrayInt := 3;
+ var B : ArrayInt := 30;
+ var i : int;
+in
+begin
+ i := 6;
+ A[i] := B[i*2] - 2;
+ 
+end

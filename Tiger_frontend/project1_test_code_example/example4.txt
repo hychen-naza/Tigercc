@@ -1,0 +1,32 @@
+main 
+let 
+ var X, Y, res : int := 0; 
+ function add(x:int, y:int) begin
+   let 
+    var X, Y, res : int := 1;
+    function show1(x:int) begin
+      x := x + Y;
+    end;
+   in
+    res := X + Y;
+    show1(res);
+   end;
+   x := x + Y;
+ end;
+in
+begin
+ X := 1;
+ Y := 2;
+ let 
+    var X, Y, res : int := 1;
+    function show2(x:int) begin
+      x := x + Y;
+    end;
+ in
+    res := X + Y;
+    show2(res);
+ end; 
+
+ add(X, Y);
+
+end

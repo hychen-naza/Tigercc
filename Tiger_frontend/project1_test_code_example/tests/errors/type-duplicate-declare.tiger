@@ -1,0 +1,10 @@
+main let
+        type bob = int;
+        type bob = float;
+        var sum, t : bob;
+in
+begin
+        for i := 0 to 99 do /* for loop for dot product */
+                sum := sum + X[i] * Y [i];
+        enddo;
+end

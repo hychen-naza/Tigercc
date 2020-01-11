@@ -1,0 +1,11 @@
+main let
+        var sum, i : int;
+        function X ( n : int ) : Y begin
+                printi(n);
+        end;
+in
+begin
+        for i := 0 to 99 do
+                sum := sum + i;
+        enddo;
+end

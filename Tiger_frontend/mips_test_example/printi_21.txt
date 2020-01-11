@@ -1,0 +1,9 @@
+main 
+let 
+ var i : int := 3;
+in
+begin
+ printi(i);
+ printi(3);
+ 
+end

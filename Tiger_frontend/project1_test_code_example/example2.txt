@@ -1,0 +1,22 @@
+main 
+let 
+ type ArrayInt = array [100] of int; 
+ var X, Y : ArrayInt := 10; 
+ var i : int := 0; 
+ function add (i : int, j : int) : int 
+ begin
+ let
+   var X : int;
+   var Y : int;
+ in
+   X := i;
+   Y := j;
+   return X + Y;
+ end;
+ end;
+in
+begin
+ for i := 1 to 100 do 
+ 	return 1;
+ enddo;
+end

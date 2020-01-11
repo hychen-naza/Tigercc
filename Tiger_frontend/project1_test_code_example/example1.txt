@@ -1,0 +1,48 @@
+main 
+let 
+ type ArrayInt = array [100] of int; /* Declare ArrayInt as a new type */
+ var X, Y, A : int := 10; 
+ var B, C : ArrayInt := 10; /* Declare vars X and Y as arrays with initialization */
+ var Z, W : array[100] of int := 3;
+ var i : int := 0; 
+
+ function add(x:int, y:int, z:int) :int begin
+   return x+y+z;
+ end;
+in
+begin
+ for i := 1 to 100 do
+   B[0] := i ;
+   X := C[0] ;
+   C[0] := B[0] ;
+   if i >= 50 
+     then i := i + 1;
+   else i := i + 2;
+   endif;
+   if i == 80 then
+     break;
+   endif;
+ enddo;
+
+ i := 0;
+ while i<= 20 do 
+   let 
+     var j, k : float := 0.5 ;
+   in 
+     j := j * i ;
+   end;
+   i := i+1;
+ enddo;
+
+     let 
+       var d, e : ArrayInt := 10; 
+     in
+       for i := 1 to 5 do
+         d[i] := d[i] + e[i];
+     enddo;
+     end;
+
+ add(Y, A, A);
+ X = add(Y, A, A);
+ W[0] = add(Y, A, A);
+end

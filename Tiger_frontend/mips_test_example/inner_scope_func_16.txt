@@ -1,0 +1,18 @@
+main 
+let 
+ var i,j,res : float; 
+ 
+in
+begin
+
+ i := 10.0;
+ let 
+   var a, b :int := 10; 
+   function add(x:int, y:int) :int begin
+     return x+y;
+   end;
+ in
+   a := add(a,b);
+ end;
+
+end

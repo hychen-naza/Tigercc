@@ -1,0 +1,5 @@
+main let
+    var a, b : int := 1;
+in begin
+    a := b := 4 + 3;
+end

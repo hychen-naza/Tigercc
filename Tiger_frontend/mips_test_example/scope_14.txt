@@ -1,0 +1,15 @@
+main 
+let 
+ var i,j,res : float; 
+in
+begin
+
+ i := 10.0;
+ j := 10.0;
+ let 
+   var a, b :int := 10; 
+ in
+   a := a+b+3;
+ end;
+
+end

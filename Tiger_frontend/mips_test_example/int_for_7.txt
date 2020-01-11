@@ -1,0 +1,14 @@
+main 
+let 
+ var i,j : int; 
+in
+begin
+
+ i := 10;
+ j := 0;
+ for i := 1 to 100 do
+   j := j + i;
+ enddo;
+ i := i + 20;
+
+end

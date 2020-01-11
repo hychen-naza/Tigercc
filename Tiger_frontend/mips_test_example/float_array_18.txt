@@ -1,0 +1,11 @@
+main 
+let 
+ type ArrayInt = array [100] of float;
+ var B, A : ArrayInt := 10.0;
+ var i : int;
+in
+begin
+
+ i := 1;
+ 
+end

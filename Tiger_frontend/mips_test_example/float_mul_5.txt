@@ -1,0 +1,10 @@
+main 
+let 
+ var X, Y : float := 0.0; 
+in
+begin
+ Y := 2.0;
+
+ X := Y * 0.5;
+
+end

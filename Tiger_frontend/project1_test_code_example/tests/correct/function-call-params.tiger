@@ -1,0 +1,8 @@
+main let
+        function print ( t:int, m:int) begin
+                printi(t);
+                printi(m);
+        end;
+in begin
+        print(3,9);
+end
