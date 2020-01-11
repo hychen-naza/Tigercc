@@ -1,6 +1,12 @@
 # CS 8803-008: Tiger Compiler Backend
 
 ## Design internals
+1, Source code: tiger.cpp, scope.h, RegisterAllocation.cpp, RegisterAllocation.h, OptRegisterAllocation.cpp, OptRegisterAllocation.h, LivenessAnalysis.cpp, LivenessAnalysis.h, CodeGeneraion.h, BackEndHelper.cpp, BackEndHelper.h, Makefile  
+ 
+2, An executable of the compiler: tiger
+
+3, Generated MIPS code: naivefactorial.s, optfactorial.s, naivelotsoints.s, optlotsoints.s
+
 In naïve register allocator, there’s no analysis at all. For each instruction, registers are allocated to its operands. Then after it is executed, its result is stored back into memory and the allocated registers are released.
 
 In whole function register allocator, liveness analysis is done for all variables in each function with the following equations
