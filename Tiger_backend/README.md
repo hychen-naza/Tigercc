@@ -1,4 +1,4 @@
-# CS 8803-008: Tiger Compiler Backend
+# CS 8803: Tiger Compiler Backend
 
 ## Design internals
 - Source code: tiger.cpp, scope.h, RegisterAllocation.cpp, RegisterAllocation.h, OptRegisterAllocation.cpp, OptRegisterAllocation.h, LivenessAnalysis.cpp, LivenessAnalysis.h, CodeGeneraion.h, BackEndHelper.cpp, BackEndHelper.h, Makefile  
