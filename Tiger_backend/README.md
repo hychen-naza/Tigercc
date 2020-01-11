@@ -36,11 +36,11 @@ One difficulty is to do function call, in our design, we record the total space,
 By running **make** on Ubuntu, the executable file tiger will be generated in current directory.
 
 ## How to Run:
-Our executable program has three parameters
--f, input the name of ir file <br/> 
--o, type ‘u’ means choosing the unoptimized naive register allocator; type ‘o’ means choosing the optimized whole function register allocator. <br/> 
--h, print the help information <br/> 
-For example: <br/> 
+Our executable program has three parameters   
+-f, input the name of ir file    
+-o, type ‘u’ means choosing the unoptimized naive register allocator; type ‘o’ means choosing the optimized whole function register allocator.     
+-h, print the help information     
+For example:     
 `./tiger -f factorial.ir -o u` <br/> 
 means we use factorial.ir as input to our compiler and choose naive register allocator <br/> 
 `./tiger -h`  <br/> 
