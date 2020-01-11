@@ -25,7 +25,7 @@ We do a lot of work in semantic check.
 We do not use listener in IR generation, instead we use our own mechanism, which is similar to visitor. For instructions that will generate IR code, we write their corresponding generation function, like genExpr(), genStatSeq(), genStat(), genFuncDec(), genVarDec(). In these functions, temporaries, jump_labels and assembly code will be generated and push into code vector. When needed, we call these functions and ensure the correctness of code sequence.
 Moreover, to make sure that we execute only executing at levels that represent an actual instruction and avoid generation duplicated IR, we record the node we have entered. If we enter the same node later, we will find we have entered before, thus no IR will be generated.
 
-### scope.cpp:
+### Scope.cpp:
 It defines the data structure needed in a scope to record all kinds of information, including its parent scope, its children scope, the var defined in this scope.
 
 
