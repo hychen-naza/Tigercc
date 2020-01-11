@@ -8,20 +8,20 @@ In whole function register allocator, liveness analysis is done for all variable
 
 
 Live range and interference graph for variables are built based on liveness analysis. Then register allocation is performed using Briggs’ optimistic coloring algorithm[1]:
-
-While G cannot be R-colored  
-&emsp;While graph G has a node N with degree less than R  
-&emsp;&emsp;Remove N and its associated edges from G and push N on a stack S  
-&emsp;End While   
-&emsp;If the entire graph has been removed then the graph is R-colorable   
-&emsp;&emsp;While stack S contains a node N   
-&emsp;&emsp;&emsp;Add N to graph G and assign it a color from the R colors   
-&emsp;&emsp;End While   
-&emsp;Else graph G cannot be colored with R colors   
-&emsp;&emsp;Simplify the graph G by choosing an object to spill and remove its node N from G   
-&emsp;&emsp;(spill nodes are chosen based on object’s number of definitions and references)   
-End While   
-
+```
+While G cannot be R-colored
+ 	While graph G has a node N with degree less than R
+	 	Remove N and its associated edges from G and push N on a stack S
+ 	End While 
+ 	If the entire graph has been removed then the graph is R-colorable 
+ 	 	While stack S contains a node N
+		 	Add N to graph G and assign it a color from the R colors
+ 		End While
+ 	Else graph G cannot be colored with R colors
+ 		Simplify the graph G by choosing an object to spill and remove its node N from G
+ 		(spill nodes are chosen based on object’s number of definitions and references)
+End While
+```
 
 Both allocators support IR for Tiger Language, including assign, add/sub/mult/div/and/or, goto, breq/brneq/brlt/brgt/brgeq/brleq, return, call/callr, array_store/array_load/assign(array assignment)
 
